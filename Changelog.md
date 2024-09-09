@@ -3,6 +3,7 @@
 ## [0.7.0] - 2023-10-02
 
 ### Fixed
+
 - Turned off moderation by default, as OpenAI has quietly added strict rate-limiting to the moderation endpoint
 - Added instructions on how to disable moderation in moderation error messages
 - Added warning message for using Generate Test Event button
@@ -15,4 +16,5 @@
 ## [0.6.8] - 2023-09-24
 
 ### Added
+
 - Initial release

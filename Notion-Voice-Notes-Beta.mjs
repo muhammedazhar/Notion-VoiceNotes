@@ -209,12 +209,13 @@ export default {
 			},
 			noteTag: {
 				type: "string",
-				label: "Note Tag",
+				label: "Type",
 				description:
 					'Choose a Select-type property for tagging your note (e.g. tagging it as "AI Transcription").',
 				options: selectProps.map((prop) => ({ label: prop, value: prop })),
 				optional: true,
 				reloadProps: true,
+				default: "Voice Notes",
 			},
 			noteIcon: {
 				type: "string",
